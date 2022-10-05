@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+      .photo-allbam{
+          display: flex;
+      }
+      .photo-fram{
+          width: 300px;
+          height: 100%px;
+          position: relative;
+          border: 2px solid lightpink;
+          border-radius: 10px;
+          overflow: hidden;
+      }
+      .photo img{
+          width: 80%;
+      }
+     .photo-fram:hover .details{
+         display: block;
+        
+         
+     }
+     .photo-fram:hover .photo{
+         transform: scale(1.5);
+         transition: transform 5s ease-in-out;
+     }
+      .details{
+        width: 90%;
+        position: absolute;
+        top: 0;
+        display: none;
+      }
+      .details h1,p{
+          padding: 0 5px;
+      
+      }
+  </style>
+</head>
+<body>
+    <div class="photo-allbam">
+        <div class="photo-fram">
+            <div class="photo">
+             <img src="image/lab.png">
+            </div>
+            <div class="details">
+             <h1>Md Subahan islam</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe qui provident libero maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis quidem repudiandae deleniti maiores soluta.</p>
+            </div>
+        </div>
+
+        <div class="photo-fram">
+            <div class="photo">
+             <img src="image/lab.png">
+            </div>
+            <div class="details">
+             <h1>Md Subahan islam</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe qui provident libero maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis quidem repudiandae deleniti maiores soluta.</p>
+            </div>
+        </div>
+
+        <div class="photo-fram">
+            <div class="photo">
+             <img src="image/lab.png">
+            </div>
+            <div class="details">
+             <h1>Md Subahan islam</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe qui provident libero maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis quidem repudiandae deleniti maiores soluta.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
